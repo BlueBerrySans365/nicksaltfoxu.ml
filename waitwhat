@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Terminal</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="window">
+  <div class="bar">
+    <div class="btn"></div>
+  </div>
+  <div class="body">
+    <pre><div class="comment"># fun fact: this page is not ready :D</div><div class="prompt">$ <span class="command">How are you?</span></div><div class="prompt">Fine, thanks)</div><div class="prompt">$ <span class="pulse">_</span></div></pre>
+  </div>
+</div>
+<!-- partial -->
+  
+</body>
+</html>
