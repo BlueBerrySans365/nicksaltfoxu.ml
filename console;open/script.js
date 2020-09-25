@@ -94,12 +94,19 @@ cli.on("^clear\s?$", function(output) {
 });
 
 cli.on("^help\s?$", function(output) {
-  output.puts("Type:");
+  output.puts("-----------------------------------------------");
+  output.puts("				   BASIC COMMANDS 				  ");
+  output.puts("-----------------------------------------------");
   output.puts("- help\xa0\xa0\xa0\xa0\xa0Get list of commands");
   output.puts("- clear\xa0\xa0\xa0\xa0Clear the command history");
   output.puts("- date\xa0\xa0\xa0\xa0\xa0Show current date");
   output.puts("- ip\xa0\xa0\xa0\xa0\xa0\xa0\xa0Show current IP address");
   output.puts("- platform\xa0Show platform information");
+  output.puts("-----------------------------------------------");
+  output.puts("				   CUSTOM COMMANDS 				  ");
+  output.puts("-----------------------------------------------");
+  output.puts("- login\xa0\xa0Login in L0calSerVe4 database");
+  
 });
 
 cli.on("^platform\s?$", function(output) {
@@ -129,6 +136,11 @@ cli.on("^ip\s?$", function(output) {
       }
     );
   });
+});
+
+cli.on("^login\s?$", function(output) {
+	output.puts("THIS FUNCTION IS NOT WORKING.");
+	window.location.replace("https://nicksaltfoxu.ml");
 });
 
 cli.on("^cd ([a-zα-ω0-9\/\-\_]+)", function(output, matches) {
