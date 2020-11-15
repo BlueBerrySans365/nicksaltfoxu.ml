@@ -2,4 +2,4 @@ Options All  -Indexes -Includes +FollowSymLinks
 
 RewriteEngine On
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTPS/
-RewriteRule ^index\.html$ https://nicksaltfoxu.ml/ [R=301,L]
+RewriteRule ^index\.html$ https://nicksaltfoxu.ml/testpage/ [R=301,L]
