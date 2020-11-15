@@ -1,5 +1,5 @@
 Options All  -Indexes -Includes +FollowSymLinks
-<IfModule mod_rewrite.c> 
-RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/ 
-RewriteRule ^index\.html$ http://%{HTTP_HOST}/ [R=301,L]
-</IfModule>
+
+RewriteEngine On
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/
+RewriteRule ^index\.html$ http://nicksaltfoxu.ml/ [R=301,L]
