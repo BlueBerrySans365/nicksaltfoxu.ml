@@ -6,35 +6,35 @@ h5,
 h6,
 p,
 #credits {
-color: #888888;
-font-family: 'Kosugi Maru', monospace;
-letter-spacing: 0.225rem;
-width: calc(100% + 0.225rem);
-font-size: 0.8em;
-line-height: 1.5;
-font-weight: 400;
-cursor: default;
-margin-top: 1rem !important;
+ color: #888888;
+ font-family: 'Kosugi Maru', monospace;
+ letter-spacing: 0.225rem;
+ width: calc(100% + 0.225rem);
+ font-size: 0.8em;
+ line-height: 1.5;
+ font-weight: 400;
+ cursor: default;
+ margin-top: 1rem !important;
 }
 aa,
 pp {
-color: #070707;
-font-family: 'Kosugi Maru', monospace;
-letter-spacing: 0.225rem;
-width: calc(100% + 0.225rem);
-font-size: 0.8em;
-line-height: 1.5;
-font-weight: 400;
-cursor: default;
-margin-top: 1rem !important;
+ color: #070707;
+ font-family: 'Kosugi Maru', monospace;
+ letter-spacing: 0.225rem;
+ width: calc(100% + 0.225rem);
+ font-size: 0.8em;
+ line-height: 1.5;
+ font-weight: 400;
+ cursor: default;
+ margin-top: 1rem !important;
 }
 body{   
-background-color: #000000;
-background-size: 100%;
+ background-color: #000000;
+ background-size: 100%;
 }
 .center {
-display: block;
-margin-left: auto;
-margin-right: auto;
-width: 50%;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 50%;
 }
