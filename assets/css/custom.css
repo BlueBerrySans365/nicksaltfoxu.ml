@@ -15,9 +15,9 @@
 /* Custom emojis */
 .bunker-icon { background-image: url('../images/bunker-icon.webp'); }
 .pokerface-nick { background-image: url('../images/pokerface-nick.png'); }
-.NexChan-icon { background-image: url('../images/nexchan.png'); }
-.l0calserver-icon { background-image: url('../images/main.ico'); }
-.minerunner-icon { background-image: url('../images/minerunner1.png'); }
+.nexchan { background-image: url('../images/nexchan.png'); }
+.localserver { background-image: url('../images/main.ico'); }
+.minerunner { background-image: url('../images/minerunner1.png'); }
 .custom {
   background-image: url('https://twemoji.maxcdn.com/2/svg/2615.svg');
   vertical-align: -.3em;
