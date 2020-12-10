@@ -39,11 +39,17 @@
   font-family: monospace;
   letter-spacing: 5px; 
 } */
+
 .rainbow_text_animated {
   background: linear-gradient(to right, #FF0000, #FF6400, #FFF000, #2EFF00, #00FFDC, #0008FF, #FF00FF);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+  animation: rainbow_animation 6s ease-in-out infinite;
+  background-size: 400% 100%;
+}
+.rainbow_label_animated {
+  background: linear-gradient(to right, #FF0000, #FF6400, #FFF000, #2EFF00, #00FFDC, #0008FF, #FF00FF);
   animation: rainbow_animation 6s ease-in-out infinite;
   background-size: 400% 100%;
 }
