@@ -46,12 +46,12 @@
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  animation: animation2 6s ease-in-out infinite;
+  animation: animation1 6s ease-in-out infinite;
   background-size: 400% 100%;
 }
 .rainbow_label_animated {
   background: linear-gradient(to right, #FF0000, #FF6400, #FFF000, #2EFF00, #00FFDC, #0008FF, #FF00FF);
-  animation: animation2 6s ease-in-out infinite;
+  animation: animation1 6s ease-in-out infinite;
   background-size: 400% 100%;
 }
 
@@ -68,7 +68,7 @@
 
 .VER_dev_label {
   background: linear-gradient(to right, #0652dd, #182C61);
-  animation: animation2 6s ease-in-out infinite;
+  animation: animation1 6s ease-in-out infinite;
   background-size: 400% 100%;
 }
 
@@ -79,7 +79,7 @@
 
 .l0s4_staff_label {
   background: linear-gradient(to right, #000000, #949494);
-  animation: animation2 6s ease-in-out infinite;
+  animation: animation1 6s ease-in-out infinite;
   background-size: 400% 100%;
 }
 
