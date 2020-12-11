@@ -4,7 +4,7 @@
 .box-container p { font-size: 18px; margin-bottom: .2em; }
 
 /* Add a pointer to arrow <span> */
-.info-button { cursor: pointer; }
+.info-button { cursor: pointer; } Oct
 
 /* Add some spacing to the info on "second page" for more depth */
 .info-container { padding-left: 2.5em; }
@@ -63,7 +63,7 @@
       background-position: 100% 0;
   }
 }
-.shocker_label_animated {
-  background-image: url("https://nicksaltfoxu.ml/assets/images/shcokeranim.gif");
+.dev_label {
+  background-color: #00ff00;
   background-size: 400% 100%;
 }
