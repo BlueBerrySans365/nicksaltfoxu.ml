@@ -63,3 +63,7 @@
       background-position: 100% 0;
   }
 }
+.shocker_label_animated {
+  background-image: url("https://nicksaltfoxu.ml/assets/images/shcokeranim.gif");
+  background-size: 400% 100%;
+}
