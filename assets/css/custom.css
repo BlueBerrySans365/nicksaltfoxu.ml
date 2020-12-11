@@ -55,7 +55,7 @@
   background-size: 400% 100%;
 }
 
-@keyframes animation2 {
+@keyframes animation1 {
   0%,100% {
       background-position: 0 0;
   }
@@ -64,23 +64,7 @@
       background-position: 100% 0;
   }
 }
-@keyframes animation1 {
-  0% {
-      background-position: 0 0;
-  }
-  50% {
-      background-position: 50% 0;
-  }
-  100% {
-    background-position: 100% 0 ;
-  }
-  50% {
-    background-position: 50% 0;
-  }
-  0% {
-    background-position: 0 0;
-  }
-}
+
 
 .VER_dev_label {
   background: linear-gradient(to right, #0652dd, #182C61);
@@ -100,7 +84,7 @@
 }
 
 .discord_bot_confirmed_label {
-  background: linear-gradient(to right, #0004fa, #00ccff);
+  background: linear-gradient(to right, #0004fa, #00ccff, #0004fa);
   animation: animation1 6s ease-in-out infinite;
   background-size: 400% 100%;
 }
