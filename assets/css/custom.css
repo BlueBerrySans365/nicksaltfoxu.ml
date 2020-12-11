@@ -18,6 +18,7 @@
 .nexchan { background-image: url('../images/nexchan.png'); }
 .localserver { background-image: url('../images/main.ico'); }
 .minerunner { background-image: url('../images/minerunner1.png'); }
+.l0s4_staff { background-image: url('https://cdn.discordapp.com/emojis/764534339953623050.png'); }
 .custom {
   background-image: url('https://twemoji.maxcdn.com/2/svg/2615.svg');
   vertical-align: -.3em;
@@ -63,8 +64,26 @@
       background-position: 100% 0;
   }
 }
-.dev_label {
+
+.VER_dev_label {
   background: linear-gradient(to right, #0652dd, #182C61);
+  animation: rainbow_animation 6s ease-in-out infinite;
+  background-size: 400% 100%;
+}
+
+.DEF_user_label {
+  background: #06dd11;
+  background-size: 400% 100%;
+}
+
+.l0s4_staff_label {
+  background: linear-gradient(to right, #000000, #949494);
+  animation: rainbow_animation 6s ease-in-out infinite;
+  background-size: 400% 100%;
+}
+
+.discord_bot_confirmed_label {
+  background: linear-gradient(to right, #0004fa, #00ccff);
   animation: rainbow_animation 6s ease-in-out infinite;
   background-size: 400% 100%;
 }
