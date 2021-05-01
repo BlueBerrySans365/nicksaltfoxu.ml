@@ -15,5 +15,4 @@ You can use old css & js files here:
 [twemoji.module.min.css](https://nicksaltfoxu.ml/assets/ModestaCSS/twemoji.module.min.css)  
   
 ## Old site pages
-[Docs](https://nicksaltfoxu.ml/assets/ModestaCSS/OldSite/docs)  
-[Examples](https://nicksaltfoxu.ml/assets/ModestaCSS/OldSite/examples)
+[OldPages](https://nicksaltfoxu.ml/assets/ModestaCSS/OldSite/)  
